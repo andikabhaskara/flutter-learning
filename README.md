@@ -36,9 +36,9 @@ This README would normally document whatever steps are necessary to get your app
 
 * after cloning this repository, run `npm install` on your terminal on your saved folder
 * setup your environment in wdio.conf.js file line 38 (Capabilities Section) 
-    'platformName':  'Android', <- Its for your Platform (Android/iOS) 
-    'appium:deviceName': 'device',<- Its your emulator name or deviceName (use `adb devices` to check your device name)
-    'udid': '00008101-000375E611E2001E' <- your udid of iOS device (use `instruments -s devices` to check your udid)
+    - 'platformName':  'Android', <- Its for your Platform (Android/iOS) 
+    - 'appium:deviceName': 'device',<- Its your emulator name or deviceName (use `adb devices` to check your device name)
+    - 'udid': '00008101-000375E611E2001E' <- your udid of iOS device (use `instruments -s devices` to check your udid)
     
     
 * Configure your local settings in [wdio.android.conf.js](./config/wdio.android.conf.js) for running the Android app, or the [wdio.ios.conf.js](./config/wdio.ios.conf.js) for running the iOS app.
